@@ -17,4 +17,14 @@
     <servlet-name>HelloWorld</servlet-name>
     <url-pattern>/HelloWorld</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>ResponseDemo01</servlet-name>
+  	<servlet-class>com.eee.test.ResponseDemo01</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ResponseDemo01</servlet-name>
+  	<url-pattern>/ResponseDemo01</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
